@@ -151,4 +151,8 @@ if pelo != 0:
                 if imagenPelo[i,j,3] != 0:
                     imagenCuerpo[i-130,j+320,k] = imagenPelo[i,j,k] 
 
-plt.imshow(imagenCuerpo)   
+plt.imshow(imagenCuerpo)
+
+
+
+print("Chao")
